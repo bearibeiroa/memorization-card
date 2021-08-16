@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(193, 160, 224);
+}
+
+.card {
+  background-color: grey;
+  height: 70px;
+  width: 50%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.button-collection {
+  text-align: center;
+}
+
+button {
+  padding: 8px 28px;
+  margin: 5px;
+  border:1px solid rgba(131, 131, 131, 0.007);
+  border-radius: 0;
+}
+
+.btn-facil {
+  background-color: green;
+  color: white;
+}
+
+.btn-medio {
+  background-color: orange;
+  color: white;
+}
+
+.btn-dificil {
+  background-color: red;
+  color: white;
+}
+
+.count-card {
+  text-align: center;
+  padding: ;
+  margin-top: 30px ;
+}
