@@ -96,6 +96,6 @@ function cardRandon() {
 const link = document.querySelector('.link')
 link.addEventListener('click', cardRandon)
 
-
+hsdakjhlsadhj
 // console.log(Object.values(arrayCards[3])[0])
 // console.log(Math.floor(Math.random() * (50 - 1 + 1)) + 1);
