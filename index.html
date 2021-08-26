@@ -14,13 +14,24 @@
   </header>
 
   <main>
-    <section class="card">Tema: Git/ GitHub</section>
+    <section id="card_pai">
+      <p class="card">Tema: Git/ GitHub</p>
+      <a id="link">Virar card</a>
+    </section>
       <section class="button-collection">
         <button class="btn-facil">Fácil</button>
         <button class="btn-medio">Médio</button>
         <button class="btn-dificil">Difícil</button>
       </section>
-    <p class="count-card">Quantidade de cards:</p>
+    <p class="count-card">Quantidade de cards: <span class="contadorDeCards"></span></p>
+    <section>
+      <button>Apagar esse Card!</button>
+      <section class="criaCard">
+        <textArea class="perguntaCard" placeholder="Insira aqui a pergunta do seu Card"></textArea>
+        <textArea class="respostaCard" placeholder="Insira aqui a respsta do seu Card"></textArea>
+        <button class="btn-criaCard">Criar esse Card!</button>
+      </section>
+    </section>
   </main>
 <script src="script.js"></script>
 </body>
